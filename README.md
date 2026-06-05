@@ -81,11 +81,12 @@ live. A model predicting exam scores at 90% from income and race alone would be 
 
 ## Data
 
-The raw ENEM microdata are large public files and are **not committed** to this repo. Download them
-from the
+The raw ENEM microdata are large public files and are **not committed** to this repo.
+Download `MICRODADOS_ENEM_2019.csv` and `MICRODADOS_ENEM_2023.csv` from the
 [INEP open data portal](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
-(`MICRODADOS_ENEM_2019.csv`, `MICRODADOS_ENEM_2023.csv`). Running the notebook produces a cleaned,
-MPE-augmented base (`dados_ENEM_2023.csv`) — small enough to commit for reproducibility.
+and place them in the project folder. Running the notebook then filters the data and
+generates the cleaned base `dados_ENEM_2023.csv` locally — this file is also too large
+to version here, so it is not included in the repo.
 
 ## Run it
 
